@@ -1,12 +1,13 @@
 import json
 from playwright.sync_api import sync_playwright
 
-def scrape_profile_for_latest_tweet(profile_url: str) -> str:
+def scrape_profile_for_latest_tweet(profile_url: str, headless: bool = True) -> str:
     """
     Scrape the latest tweet URL from a profile page.
     """
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(headless=False)
+        # Launch the browser with headless mode based on the input parameter
+        browser = pw.chromium.launch(headless=headless)
         page = browser.new_page()
 
         # Go to the Twitter profile page
@@ -26,7 +27,7 @@ def scrape_profile_for_latest_tweet(profile_url: str) -> str:
         return full_tweet_url
 
 
-def scrape_tweet(tweet_url: str) -> dict:
+def scrape_tweet(tweet_url: str, headless: bool = True) -> dict:
     """
     Scrape the contents of a tweet using its URL.
     """
@@ -38,7 +39,8 @@ def scrape_tweet(tweet_url: str) -> dict:
             _xhr_calls.append(response)
 
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(headless=False)
+        # Launch the browser with headless mode based on the input parameter
+        browser = pw.chromium.launch(headless=headless)
         context = browser.new_context(viewport={"width": 1920, "height": 1080})
         page = context.new_page()
 
@@ -66,13 +68,16 @@ def save_to_json(data: dict, filename: str = "results.json"):
 
 
 if __name__ == "__main__":
+    # Determine if running in headless mode (True by default)
+    headless_mode = True  # Change to False if you want to run non-headless
+
     # Step 1: Scrape the profile page for the latest tweet URL
     profile_url = "https://x.com/facil_pay"
-    latest_tweet_url = scrape_profile_for_latest_tweet(profile_url)
+    latest_tweet_url = scrape_profile_for_latest_tweet(profile_url, headless=headless_mode)
     print(f"Latest Tweet URL: {latest_tweet_url}")
 
     # Step 2: Scrape the latest tweet content
-    tweet_data = scrape_tweet(latest_tweet_url)
+    tweet_data = scrape_tweet(latest_tweet_url, headless=headless_mode)
     
     # Step 3: Save the results to results.json
     save_to_json(tweet_data, "results/results.json")
