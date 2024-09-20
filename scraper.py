@@ -118,7 +118,6 @@ def translate_text(text: str, dest_language: str = 'es') -> str:
         print(f"Error during translation: {e}")
         return ""
 
-
 def save_to_json(data: dict, filename: str = "results.json"):
     """
     Save the scraped data to a JSON file, overwriting any previous content.
@@ -126,6 +125,7 @@ def save_to_json(data: dict, filename: str = "results.json"):
     """
     # Ensure the directory exists
     os.makedirs(os.path.dirname(filename), exist_ok=True)
+    
 
     try:
         with open(filename, 'w', encoding='utf-8') as json_file:
