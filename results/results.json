@@ -35,7 +35,7 @@
                     },
                     "fast_followers_count": 0,
                     "favourites_count": 49,
-                    "followers_count": 15446,
+                    "followers_count": 15452,
                     "friends_count": 127,
                     "has_custom_timelines": false,
                     "is_translator": false,
@@ -43,7 +43,7 @@
                     "location": "",
                     "media_count": 22,
                     "name": "facilPay",
-                    "normal_followers_count": 15446,
+                    "normal_followers_count": 15452,
                     "pinned_tweet_ids_str": [
                         "1831414300319023197"
                     ],
@@ -83,7 +83,7 @@
     },
     "is_translatable": false,
     "views": {
-        "count": "4725",
+        "count": "4743",
         "state": "EnabledWithCount"
     },
     "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
@@ -92,7 +92,7 @@
         "note_tweet_results": {
             "result": {
                 "id": "Tm90ZVR3ZWV0OjE4MzE0MTQzMDAxNDI5MzYwNjQ=",
-                "text": "\ud83d\ude80One of the world's largest crypto events, @token2049, will take place this month from the 18th to the 19th. We'll be joining @Aztlan_Capital to collaborate with some of the industry's most esteemed investors, founders, builders, and ecosystem leaders focused on LATAM and emerging markets.\n\nJoin FacilPay and our partner @Aztlan_Capital this September to Remember! \n\n\ud83d\udcc5: Sep 18th, 3:30 PM - 8:30 PM\nApply: https://t.co/Tif1TQu98X\n\n#Token2049 #Web3 #FacilPay #AztlanCapital",
+                "text": "🚀One of the world's largest crypto events, @token2049, will take place this month from the 18th to the 19th. We'll be joining @Aztlan_Capital to collaborate with some of the industry's most esteemed investors, founders, builders, and ecosystem leaders focused on LATAM and emerging markets.\n\nJoin FacilPay and our partner @Aztlan_Capital this September to Remember! \n\n📅: Sep 18th, 3:30 PM - 8:30 PM\nApply: https://t.co/Tif1TQu98X\n\n#Token2049 #Web3 #FacilPay #AztlanCapital",
                 "entity_set": {
                     "hashtags": [
                         {
@@ -404,16 +404,17 @@
         },
         "favorite_count": 30,
         "favorited": false,
-        "full_text": "\ud83d\ude80One of the world's largest crypto events, @token2049, will take place this month from the 18th to the 19th. We'll be joining @Aztlan_Capital to collaborate with some of the industry's most esteemed investors, founders, builders, and ecosystem leaders focused on LATAM and https://t.co/mVg4iSQDfl",
+        "full_text": "🚀One of the world's largest crypto events, @token2049, will take place this month from the 18th to the 19th. We'll be joining @Aztlan_Capital to collaborate with some of the industry's most esteemed investors, founders, builders, and ecosystem leaders focused on LATAM and https://t.co/mVg4iSQDfl",
         "is_quote_status": false,
         "lang": "en",
         "possibly_sensitive": false,
         "possibly_sensitive_editable": true,
         "quote_count": 0,
-        "reply_count": 6,
-        "retweet_count": 15,
+        "reply_count": 7,
+        "retweet_count": 14,
         "retweeted": false,
         "user_id_str": "1653834500583858195",
-        "id_str": "1831414300319023197"
+        "id_str": "1831414300319023197",
+        "spanish_full_text": "🚀 Uno de los eventos criptográficos más grandes del mundo, @Token2049, tendrá lugar este mes del 18 al 19.Nos uniremos a @Aztlan_Capital para colaborar con algunos de los inversores, fundadores, constructores y líderes más estimados de la industria centrados en Latam y https://t.co/MVG4ISQDFL"
     }
 }
