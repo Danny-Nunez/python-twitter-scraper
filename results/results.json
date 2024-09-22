@@ -35,15 +35,15 @@
                     },
                     "fast_followers_count": 0,
                     "favourites_count": 49,
-                    "followers_count": 15304,
+                    "followers_count": 15278,
                     "friends_count": 127,
                     "has_custom_timelines": false,
                     "is_translator": false,
-                    "listed_count": 0,
+                    "listed_count": 1,
                     "location": "",
                     "media_count": 23,
                     "name": "facilPay",
-                    "normal_followers_count": 15304,
+                    "normal_followers_count": 15278,
                     "pinned_tweet_ids_str": [
                         "1831414300319023197"
                     ],
@@ -83,7 +83,7 @@
     },
     "is_translatable": false,
     "views": {
-        "count": "4853",
+        "count": "5025",
         "state": "EnabledWithCount"
     },
     "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
@@ -402,7 +402,7 @@
                 }
             ]
         },
-        "favorite_count": 35,
+        "favorite_count": 37,
         "favorited": false,
         "full_text": "🚀One of the world's largest crypto events, @token2049, will take place this month from the 18th to the 19th. We'll be joining @Aztlan_Capital to collaborate with some of the industry's most esteemed investors, founders, builders, and ecosystem leaders focused on LATAM and https://t.co/mVg4iSQDfl",
         "is_quote_status": false,
@@ -410,7 +410,7 @@
         "possibly_sensitive": false,
         "possibly_sensitive_editable": true,
         "quote_count": 0,
-        "reply_count": 13,
+        "reply_count": 14,
         "retweet_count": 13,
         "retweeted": false,
         "user_id_str": "1653834500583858195",
