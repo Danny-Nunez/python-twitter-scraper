@@ -35,7 +35,7 @@
                     },
                     "fast_followers_count": 0,
                     "favourites_count": 77,
-                    "followers_count": 15054,
+                    "followers_count": 15100,
                     "friends_count": 190,
                     "has_custom_timelines": false,
                     "is_translator": false,
@@ -43,7 +43,7 @@
                     "location": "",
                     "media_count": 26,
                     "name": "facilPay",
-                    "normal_followers_count": 15054,
+                    "normal_followers_count": 15100,
                     "pinned_tweet_ids_str": [
                         "1841323288380821542"
                     ],
@@ -83,7 +83,7 @@
     },
     "is_translatable": false,
     "views": {
-        "count": "6079",
+        "count": "6084",
         "state": "EnabledWithCount"
     },
     "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
@@ -471,10 +471,10 @@
         "possibly_sensitive_editable": true,
         "quote_count": 2,
         "reply_count": 83,
-        "retweet_count": 119,
+        "retweet_count": 122,
         "retweeted": false,
         "user_id_str": "1653834500583858195",
         "id_str": "1841323288380821542",
-        "spanish_full_text": "🚀 Anuncio de asociación 🚀\n\n🔥 Estamos encantados de anunciar que FacilPay se ha unido oficialmente al programa @circle Alliance, una red global de compañías y equipos de ideas afines dedicadas a dar forma al futuro de las finanzas.Como miembros, esperamos construir nuevas conexiones https://t.co/2ec91dm7k3"
+        "spanish_full_text": "🚀 Anuncio de asociación 🚀\n\n🔥 Estamos encantados de anunciar que FacilPay se ha unido oficialmente al programa @circle Alliance, una red global de empresas y equipos de ideas afines dedicadas a dar forma al futuro de las finanzas.Como miembros, esperamos construir nuevas conexiones https://t.co/2ec91dm7k3"
     }
 }
